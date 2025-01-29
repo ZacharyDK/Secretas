@@ -172,7 +172,7 @@ data:extend({
 
     {
       type = "technology",
-      name = "transport-belt-capacity-3",
+      name = "transport-belt-capacity-3-secretas",
       localised_description = {"technology-description.belt-capacity"},
       icons = util.technology_icon_constant_stack_size("__space-age__/graphics/technology/transport-belt-capacity.png"),
       effects =
