@@ -9,6 +9,19 @@ for i,v in pairs(data.raw["inserter"]) do -- this should also modify stack inser
 		v.max_belt_stack_size = maxbelt + 1
 	end
 end
+-- Don't forget to modify loaders if mods use them with stack belt
+for i,v in pairs(data.raw["loader"]) do
+	local maxbelt = v.max_belt_stack_size or 1
+	if maxbelt ~= 1 then
+		v.max_belt_stack_size = maxbelt + 1
+	end
+end
+for i,v in pairs(data.raw["loader-1x1"]) do
+	local maxbelt = v.max_belt_stack_size or 1
+	if maxbelt ~= 1 then
+		v.max_belt_stack_size = maxbelt + 1
+	end
+end
 
 
 -- log("** before modification:")
