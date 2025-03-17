@@ -21,7 +21,6 @@ if script.active_mods["dea-dia-system"] then
         end
     end
 
-
     script.on_event(defines.events.on_entity_died, function(event)
         mine_collector(event.entity)
     end, { {
