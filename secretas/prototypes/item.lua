@@ -40,7 +40,7 @@ data:extend(
         pick_sound = item_sounds.resource_inventory_pickup,
         drop_sound = item_sounds.resource_inventory_move,
         stack_size = 50,
-        default_import_location = "frozeta",
+        default_import_location = "secretas",
         weight = 10*kg
     },
     {
