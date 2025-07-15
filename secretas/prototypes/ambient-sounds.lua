@@ -4,14 +4,13 @@ data:extend(
 
 -------------------------------------------------------------------------------------AQUILO
 
---[[  {
+  {
     type = "ambient-sound",
     name = "frozeta-4-hero",
     track_type = "hero-track",
     planet = "frozeta",
-    sound = "__space-age__/sound/ambient/aquilo/aquilo-4-hero.ogg", --Replaced if Factorio version >= 2.0.59
+    sound = "__space-age__/sound/ambient/aquilo/aquilo-3-hero.ogg", --Replaced if Factorio version >= 2.0.59
   },
---]]
   require("__space-age__/sound/ambient/aquilo/aquilo-1/aquilo-1"),
   {
     type = "ambient-sound",
