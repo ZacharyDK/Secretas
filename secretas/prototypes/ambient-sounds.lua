@@ -3,7 +3,7 @@ data:extend(
 --- weight 10 is normal. The higher the number, the higher the probabilities to sound.
 
 -------------------------------------------------------------------------------------AQUILO
-
+--[[
   {
     type = "ambient-sound",
     name = "frozeta-4-hero",
@@ -11,6 +11,7 @@ data:extend(
     planet = "frozeta",
     sound = "__space-age__/sound/ambient/aquilo/aquilo-4-hero.ogg", --Replaced if Factorio version >= 2.0.59
   },
+--]]
   require("__space-age__/sound/ambient/aquilo/aquilo-1/aquilo-1"),
   {
     type = "ambient-sound",
