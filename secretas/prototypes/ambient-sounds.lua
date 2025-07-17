@@ -9,7 +9,7 @@ data:extend(
     name = "frozeta-4-hero",
     track_type = "hero-track",
     planet = "frozeta",
-    sound = "__space-age__/sound/ambient/aquilo/aquilo-4-hero.ogg", --Replaced if Factorio version >= 2.0.59
+    sound = "__space-age__/sound/ambient/aquilo/aquilo-3-hero.ogg",
   },
 --]]
   require("__space-age__/sound/ambient/aquilo/aquilo-1/aquilo-1"),
@@ -74,10 +74,3 @@ data:extend(
 -------------------------------------------------------------------------------------SPACE
 
 })
---[[
-local hero_sound = data.raw["ambient-sound"]["frozeta-4-hero"]
-
-if helpers.compare_versions(helpers.game_version,"2.0.59") > -1 then
-  hero_sound.sound = "__space-age__/sound/ambient/aquilo/aquilo-3-hero.ogg"
-end
---]]
