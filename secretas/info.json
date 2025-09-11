@@ -4,7 +4,7 @@
     "title": "Secretas&Frozeta",
     "author": "ZDK, 2025",
     "factorio_version": "2.0",
-    "dependencies": ["base >= 2.0",
+    "dependencies": ["base >= 2.0.60",
         "space-age >= 2.0",
         "quality >= 2.0",
         "? any-planet-start >= 1.1.13"
