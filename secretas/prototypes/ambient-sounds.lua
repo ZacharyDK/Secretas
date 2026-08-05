@@ -8,7 +8,7 @@ data:extend(
     type = "ambient-sound",
     name = "frozeta-4-hero",
     track_type = "hero-track",
-    planet = "frozeta",
+    planets = {"frozeta"},
     sound = "__space-age__/sound/ambient/aquilo/aquilo-4-hero.ogg", --Replaced if Factorio version >= 2.0.59
   },
 --]]
@@ -17,7 +17,7 @@ data:extend(
     type = "ambient-sound",
     name = "frozeta-2",
     track_type = "main-track",
-    planet = "frozeta",
+    planets = {"frozeta"},
     sound = "__space-age__/sound/ambient/aquilo/aquilo-2.ogg",
     weight = 10
   },
@@ -25,7 +25,7 @@ data:extend(
     type = "ambient-sound",
     name = "frozeta-3",
     track_type = "main-track",
-    planet = "frozeta",
+    planets = {"frozeta"},
     sound = "__space-age__/sound/ambient/aquilo/aquilo-3.ogg",
     weight = 10
   },
@@ -34,7 +34,7 @@ data:extend(
     type = "ambient-sound",
     name = "frozeta-4",
     track_type = "main-track",
-    planet = "frozeta",
+    planets = {"frozeta"},
     sound = "__space-age__/sound/ambient/aquilo/aquilo-4.ogg",
     weight = 10
   },
@@ -44,7 +44,7 @@ data:extend(
     type = "ambient-sound",
     name = "frozeta-6",
     track_type = "main-track",
-    planet = "frozeta",
+    planets = {"frozeta"},
     sound = "__space-age__/sound/ambient/aquilo/aquilo-6.ogg",
     weight = 10
   },
@@ -53,7 +53,7 @@ data:extend(
     type = "ambient-sound",
     name = "frozeta-8",
     track_type = "main-track",
-    planet = "frozeta",
+    planets = {"frozeta"},
     sound = "__space-age__/sound/ambient/aquilo/aquilo-8.ogg",
     weight = 10
   },
@@ -61,7 +61,7 @@ data:extend(
     type = "ambient-sound",
     name = "frozeta-9",
     track_type = "main-track",
-    planet = "frozeta",
+    planets = {"frozeta"},
     sound = "__space-age__/sound/ambient/aquilo/aquilo-9.ogg",
     weight = 10
   },
