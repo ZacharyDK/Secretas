@@ -149,7 +149,7 @@ data:extend({
                 recipe = "hyper-inserter",
             },
         },
-        prerequisites = {"planet-discovery-secretas"},
+        prerequisites = {"golden-science-pack"},
         unit =
         {
           count = 1000,
@@ -234,7 +234,7 @@ data:extend({
           item = "gold-plate",
           count = 20
       },
-      prerequisites = { "planet-discovery-secretas"}
+      prerequisites = { "steam-recycler"}
     },
     {
       type = "technology",
@@ -250,7 +250,7 @@ data:extend({
               recipe = "gold-heat-pipe",
           },
       },
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       unit =
       {
         count = 3000,
@@ -282,7 +282,7 @@ data:extend({
           recipe = "railgun-ammo"
         },
       },
-      prerequisites = {"planet-discovery-secretas","railgun"},
+      prerequisites = {"railgun","golden-science-pack"},
       unit =
       {
         count = 2000,
@@ -311,10 +311,10 @@ data:extend({
       {
         {
           type = "unlock-recipe",
-          recipe = "pentapod-egg-unrestricted"
-        },
+              recipe = "pentapod-egg-unrestricted"
+          },
       },
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       unit =
       {
         count = 2000,
@@ -347,7 +347,7 @@ data:extend({
         },
 
       },
-      prerequisites = {"transport-belt-capacity-2","planet-discovery-secretas"},
+      prerequisites = {"transport-belt-capacity-2","golden-science-pack"},
       unit =
       {
         count = 6000,
@@ -383,7 +383,7 @@ data:extend({
           modifier = 1
         }
       },
-      prerequisites = {"worker-robots-storage-3", "planet-discovery-secretas"},
+      prerequisites = {"worker-robots-storage-3", "golden-science-pack"},
       unit =
       {
         count = 900,
@@ -559,7 +559,7 @@ data:extend({
           change = 0.1
         }
       },
-      prerequisites = {"planet-discovery-secretas", "production-science-pack"},
+      prerequisites = {"production-science-pack", "golden-science-pack"},
       unit =
       {
         count_formula = "2^L*600",
@@ -656,7 +656,7 @@ data:extend({
 
         
       },
-      prerequisites = {"promethium-science-pack","planet-discovery-secretas"},
+      prerequisites = {"promethium-science-pack","golden-science-pack"},
       unit =
       {
         count_formula = "1.5^L*1200",
@@ -700,7 +700,7 @@ data:extend({
           change = 0.07,
         }
       },
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       unit =
       {
         count_formula = "1.5^L*1000",
@@ -733,7 +733,7 @@ if(settings.startup["condense-level-4-modules-into-one-technology"].value) then
       name = "module-finale",
       icons = util.technology_icon_constant_recipe_productivity("__secretas__/graphics/technology/module.png"),
       icon_size = 256,
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       effects =
       {
           {
@@ -786,7 +786,7 @@ else
       name = "quality-module-4-S",
       icons = util.technology_icon_constant_recipe_productivity("__secretas__/graphics/technology/quality-module-4-tech.png"),
       icon_size = 256,
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       effects =
       {
           {
@@ -819,7 +819,7 @@ else
       name = "efficiency-module-4-S",
       icons = util.technology_icon_constant_recipe_productivity("__secretas__/graphics/technology/efficiency-module-4-tech.png"),
       icon_size = 256,
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       effects =
       {
           {
@@ -852,7 +852,7 @@ else
       name = "speed-module-4-S",
       icons = util.technology_icon_constant_recipe_productivity("__secretas__/graphics/technology/speed-module-4-tech.png"),
       icon_size = 256,
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       effects =
       {
           {
@@ -885,7 +885,7 @@ else
       name = "productivity-module-4-S",
       icons = util.technology_icon_constant_recipe_productivity("__secretas__/graphics/technology/productivity-module-4-tech.png"),
       icon_size = 256,
-      prerequisites = {"planet-discovery-secretas"},
+      prerequisites = {"golden-science-pack"},
       effects =
       {
           {
