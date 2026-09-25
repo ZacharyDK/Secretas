@@ -140,7 +140,7 @@ data:extend(
           { size = 64, filename = "__secretas__/graphics/icons/golden-biter-egg-2.png", scale = 0.5, mipmap_count = 4 },
           { size = 64, filename = "__secretas__/graphics/icons/golden-biter-egg-3.png", scale = 0.5, mipmap_count = 4 },
         },
-        fuel_category = "chemical",
+        fuel_categories = {"chemical"},
         fuel_value = "16MJ",
         subgroup = "agriculture-products",
         order = "c[eggs]-b[biter-egg]",
