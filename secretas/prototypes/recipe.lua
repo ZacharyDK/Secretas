@@ -377,10 +377,11 @@ data:extend(
       },
       results =
       {
-        {type = "fluid", name = "heavy-oil", amount = 120, ignored_by_stats = 50, ignored_by_productivity = 50},
+        -- 50 heavy oil gained cracks into 37.5 light oil, 3.75 solid fuel: less than the 5 spent, so no loop (#74)
+        {type = "fluid", name = "heavy-oil", amount = 100, ignored_by_stats = 50, ignored_by_productivity = 50},
 
       },
-      allow_productivity = true,
+      allow_productivity = false,
 
       subgroup = "fluid-recipes",
       order = "a[oil-processing]-c[solid-fuel-liquefaction]",
