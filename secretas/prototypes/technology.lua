@@ -5,7 +5,7 @@ if ((mods["dea-dia-system"] == false or mods["dea-dia-system"] == nil) or settin
     {
       type = "technology",
       name = "planet-discovery-secretas",
-      icons = util.technology_icon_constant_planet("__secretas__/graphics/technology/secretas-discovery.png"),
+      icons = PlanetsLib.technology_icon_planet("__secretas__/graphics/technology/secretas-discovery.png", 256, 0.84),
       icon_size = 256,
       essential = true,
       effects =
@@ -54,7 +54,7 @@ if (mods["dea-dia-system"] and settings.startup["ignore-dea-dia-compatibility"].
     {
       type = "technology",
       name = "planet-discovery-frozeta",
-      icons = util.technology_icon_constant_planet("__secretas__/graphics/technology/frozeta-discovery.png"),
+      icons = PlanetsLib.technology_icon_planet("__secretas__/graphics/technology/frozeta-discovery.png", 256, 0.84),
       icon_size = 256,
       essential = true,
       effects =
@@ -90,7 +90,7 @@ if (mods["dea-dia-system"] and settings.startup["ignore-dea-dia-compatibility"].
     {
       type = "technology",
       name = "planet-discovery-secretas",
-      icons = util.technology_icon_constant_planet("__secretas__/graphics/technology/secretas-discovery.png"),
+      icons = PlanetsLib.technology_icon_planet("__secretas__/graphics/technology/secretas-discovery.png", 256, 0.84),
       icon_size = 256,
       essential = true,
       effects =
