@@ -257,7 +257,7 @@ data:extend({
       },
       collision_box = {{-0.7, -1.7}, {0.7, 1.7}},
       selection_box = {{-0.9, -1.85}, {0.9, 1.85}},
-      crafting_categories = {"recycling", "hand-crafting"},
+      crafting_categories = {"recycling"},
       result_inventory_size = 40,
       energy_usage = "600kW",
       crafting_speed = 1.3,
